@@ -1,7 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text field</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+
+</body>
+</html>
+
+</body>
+</html>
 <h1> Hello, Welcome to Simple DevOps Project Kojo !!   </h1>
 <h2> Data Service Group is your learning partner </h2>
 <h2> Glad to see you here </h2>
-<h1> Good job Serge on learning Devops</h1>
 
 <menu class="menu">
     
